@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Covid</title></head><body><nav-bar></nav-bar><div class="jumbotron bg-secondary"><p class="text-light text-center">New Case Information about the corona in the world</p><hr><div class="row"><div class="col-md-12"><h3 class="text-center text-light">See Case In other countries?</h3><div class="form"><input autocomplete="off" class="form-control" id="search" placeholder="Search Country"> <button class="btn btn-outline-primary text-light" id="button">Search</button></div></div></div></div><main><div class="container"><div class="row row-cards"><div class="col-xl-12 col-sm-12 col-md-12"><div class="card"><div class="card-header text-center"></div><div class="card-body overflow-auto"><div class="table-responsive"><table class="table table-bordered rounded table-hover"><thead class="thead-dark"><tr><th class="atas" scope="col">Country</th><th class="atas" scope="col">Active</th><th class="atas" scope="col">Death</th><th class="atas" scope="col">Recovered</th><th class="atas" scope="col">Total</th></tr></thead><tbody class="covid"></tbody></table></div></div></div></div></div></div></main><footer class="bg-dark"><div class="copy"><h4 class="text-center text-light">&copy;Ardyy &hearts; 2020</h4></div></footer><script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script><script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script><script>// Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAPWKl5p6r0vKHco3d93otmwpthySR3lAc",
+    authDomain: "covidinfo-e6b30.firebaseapp.com",
+    databaseURL: "https://covidinfo-e6b30.firebaseio.com",
+    projectId: "covidinfo-e6b30",
+    storageBucket: "covidinfo-e6b30.appspot.com",
+    messagingSenderId: "1009199216327",
+    appId: "1:1009199216327:web:7c9e461c46076eec9430e2",
+    measurementId: "G-XX5E2XDMMH"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();</script><script src="bundle.js"></script></body></html>
